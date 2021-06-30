@@ -27,3 +27,4 @@ else:
   f = open(SCRIPTNAME + '.py', 'w')
   f.write(githubfile)
   f.close()
+  os.system(f"python3 {SCRIPTNAME}.py")
